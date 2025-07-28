@@ -1,0 +1,115 @@
+﻿@page "{id:guid}"
+@model WebLuuFile.Pages.UpdateModel
+@{
+    ViewData["Title"] = "Cập nhật file";
+}
+<h2>@ViewData["Title"]</h2>
+
+<div class="mb-3">
+    <a asp-page="/Index" class="btn btn-primary">Trở về</a>
+</div>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Chọn file mới:</label>
+        <input type="file" asp-for="UploadFile" class="form-control" />
+        <span asp-validation-for="UploadFile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Mật khẩu file:</label>
+        <input type="password" asp-for="FilePassword" class="form-control" placeholder="Nhập mật khẩu" />
+        <span asp-validation-for="FilePassword" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Watermark:</label>
+        <input type="text" asp-for="WatermarkText" class="form-control" placeholder="Nhập watermark" />
+        <span asp-validation-for="WatermarkText" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group mt-3">
+        <div class="progress" style="height: 26px; border-radius: 12px; background-color: #e9ecef; overflow: hidden; box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);">
+            <div id="uploadProgressBar"
+                 class="progress-bar text-white fw-bold"
+                 role="progressbar"
+                 style="width: 0%; height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); transition: width 0.4s ease;">
+                0%
+            </div>
+        </div>
+    </div>
+
+
+    <button type="submit" id="submitBtn" class="btn btn-primary mt-3">Cập nhật file</button>
+</form>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 ||
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) ||
+                (event.ctrlKey && event.keyCode === 85) ||
+                (event.ctrlKey && event.key === 's') ||
+                (event.ctrlKey && event.key === 'p')
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+
+        const fileInput = document.getElementById('fileInput');
+        const fileNameEl = document.getElementById('fileName');
+        fileInput.addEventListener('change', () => {
+            fileNameEl.textContent = fileInput.files.length
+                ? fileInput.files[0].name
+                : '';
+        });
+
+        const form = document.getElementById('uploadForm');
+        const progressBar = document.getElementById('uploadProgressBar');
+        const submitBtn = document.getElementById('submitBtn');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            submitBtn.disabled = true;
+
+            const formData = new FormData(form);
+            const xhr = new XMLHttpRequest();
+
+            xhr.open('POST', form.action);
+
+            xhr.upload.onprogress = function (event) {
+                if (event.lengthComputable) {
+                    const percent = Math.round((event.loaded / event.total) * 100);
+                    progressBar.style.width = percent + '%';
+                    progressBar.textContent = percent + '%';
+                }
+            };
+
+            xhr.onload = function () {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    window.location = '/Index';
+                } else {
+                    document.body.innerHTML = xhr.response;
+                }
+            };
+
+            xhr.onerror = function () {
+                alert('Có lỗi xảy ra trong quá trình upload.');
+                submitBtn.disabled = false;
+            };
+
+            xhr.send(formData);
+        });
+    </script>
+}

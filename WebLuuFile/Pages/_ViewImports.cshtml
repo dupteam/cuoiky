@@ -1,0 +1,33 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WebLuuFile
+@using WebLuuFile.Data
+@namespace WebLuuFile.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 ||
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) ||
+                (event.ctrlKey && event.keyCode === 85) ||
+                (event.ctrlKey && event.key === 's') ||
+                (event.ctrlKey && event.key === 'p')
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+    </script>
+}

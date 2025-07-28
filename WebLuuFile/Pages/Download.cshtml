@@ -1,0 +1,60 @@
+﻿@page 
+@model WebLuuFile.Pages.DownloadModel
+@using WebLuuFile.Models
+
+@{
+    ViewData["Title"] = "Tải File";
+}
+
+
+<h2>Tải File</h2>
+
+<div class="mb-3">
+    <a asp-page="/Index" class="btn btn-secondary">Trở về</a>
+</div>
+
+@if (Model.FileRecord != null)
+{
+    <p><strong>Tên file:</strong> @Model.FileRecord.FileName</p>
+
+    <form method="post">
+        <input type="hidden" asp-for="FileRecord.Id" />
+        <div class="form-group">
+            <label for="FilePassword">Nhập mật khẩu để tải file:</label>
+            <input type="password" asp-for="FilePassword" class="form-control" required />
+            <span asp-validation-for="FilePassword" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Tải xuống</button>
+    </form>
+}
+else
+{
+    <p class="text-danger">Không tìm thấy file.</p>
+}
+
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 ||
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) ||
+                (event.ctrlKey && event.keyCode === 85) ||
+                (event.ctrlKey && event.key === 's') ||
+                (event.ctrlKey && event.key === 'p')
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+    </script>
+}

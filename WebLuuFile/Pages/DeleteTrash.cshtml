@@ -1,0 +1,48 @@
+﻿@page
+@model WebLuuFile.Pages.DeleteTrashModel
+@{
+    ViewData["Title"] = "Xác nhận Xóa";
+}
+
+<h2>Xác nhận Xóa</h2>
+<p>Bạn có chắc chắn muốn xóa vĩnh viễn @((Model.FileToDelete != null) ? Model.FileToDelete.FileName : "tất cả các file") không?</p>
+
+<form method="post">
+    @if (Model.FileToDelete != null)
+    {
+        <input type="hidden" name="id" value="@Model.FileToDelete.Id" />
+        <button type="submit" asp-page-handler="DeleteConfirmed" class="btn btn-danger">Xóa</button>
+    }
+    else
+    {
+        <button type="submit" asp-page-handler="DeleteAllConfirmed" class="btn btn-danger">Xóa tất cả</button>
+    }
+    <a asp-page="Restore" class="btn btn-secondary">Hủy</a>
+</form>
+
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 ||
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) ||
+                (event.ctrlKey && event.keyCode === 85) ||
+                (event.ctrlKey && event.key === 's') ||
+                (event.ctrlKey && event.key === 'p')
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+    </script>
+}

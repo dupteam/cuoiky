@@ -1,0 +1,91 @@
+﻿@page
+@model WebLuuFile.Pages.RestoreModel
+@{
+    ViewData["Title"] = "Khôi phục file đã xóa";
+}
+<h2>@ViewData["Title"]</h2>
+
+<div class="mb-3 d-flex justify-content-between">
+    <a asp-page="/Index" class="btn btn-primary">Trở về</a>
+    @if (Model.DeletedFiles != null && Model.DeletedFiles.Any())
+    {
+        <div>
+            <form method="post" asp-page-handler="RestoreAll" style="display: inline;">
+                <button type="submit" class="btn btn-success">Khôi phục tất cả</button>
+            </form>
+            <a asp-page="/DeleteTrash" class="btn btn-danger">Xóa tất cả</a>
+        </div>
+    }
+</div>
+
+
+
+@if (Model.DeletedFiles != null && Model.DeletedFiles.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Tên file</th>
+                <th>Ngày tải lên</th>
+                <th>Ngày xóa</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in Model.DeletedFiles)
+            {
+                <tr>
+                    <td>@file.FileName</td>
+                    <td>@file.UploadDate</td>
+                    <td>@file.DeletedAt</td>
+                    <td>
+                        <form method="post" asp-page-handler="Restore" asp-route-id="@file.Id" style="display: inline;">
+                            <button type="submit" class="btn btn-primary">Khôi phục</button>
+                        </form>
+                        <a asp-page="/DeleteTrash" asp-route-id="@file.Id" class="btn btn-danger">Xóa vĩnh viễn</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có file nào trong thùng rác.</p>
+}
+
+
+<style>
+    #mainContent.blur {
+        filter: blur(20px);
+        pointer-events: none;
+        transition: filter 0.3s ease;
+    }
+</style>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 ||
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) ||
+                (event.ctrlKey && event.keyCode === 85) ||
+                (event.ctrlKey && event.key === 's') ||
+                (event.ctrlKey && event.key === 'p')
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+    </script>
+}

@@ -1,0 +1,197 @@
+﻿@page
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@model WebLuuFile.Pages.IndexModel
+@{
+    ViewData["Title"] = "Danh sách tài liệu";
+}
+<h2>@ViewData["Title"]</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="mb-3 d-flex justify-content-between">
+        <a asp-page="/Upload" class="btn btn-primary">Tải file lên</a>
+        <a asp-page="/Restore" class="btn btn-secondary">Thùng rác</a>
+    </div>
+}
+
+<form method="get" class="mb-3">
+    <div class="form-group">
+        <label for="SearchQuery">Tìm kiếm</label>
+        <input type="text" class="form-control" id="SearchQuery" name="SearchQuery" value="@Model.SearchQuery" placeholder="Nhập từ khóa..." />
+    </div>
+    <div>
+        <button type="submit" class="btn btn-info">Tìm kiếm</button>
+        <a asp-page="/Index" class="btn btn-secondary">Reset</a>
+    </div>
+</form>
+
+@if (Model.Files != null && Model.Files.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Tên file</th>
+                <th>Kích thước</th>
+                <th>Loại file</th>
+                <th>Tải lên bởi</th>
+                <th>Ngày tải lên</th>
+                <th>Phiên bản</th>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <th>Hành động</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in Model.Files)
+            {
+                <tr>
+                    <td>@file.FileName</td>
+                    <td>@FormatFileSize(file.FileSize)</td>
+                    <td>@file.FileType</td>
+                    <td>@file.UploadedBy</td>
+                    <td>@file.UploadDate</td>
+                    <td>
+                        @if (file.FileVersions != null && file.FileVersions.Any())
+                        {
+                            @file.FileVersions.Max(v => v.VersionNumber)
+                        }
+                        else
+                        {
+                            @:1
+                        }
+                    </td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <td>
+                            <a asp-page="/Download" asp-route-id="@file.Id" class="btn btn-success btn-sm">Tải về</a>
+                            <a asp-page="/passupdate" asp-route-id="@file.Id" class="btn btn-warning btn-sm">Cập nhật</a>
+                            <a asp-page="/Delete" asp-route-id="@file.Id" class="btn btn-danger btn-sm">Xoá</a>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có tài liệu nào.</p>
+}
+
+@functions {
+    public static string FormatFileSize(long bytes)
+    {
+        if (bytes >= 1_099_511_627_776)
+            return $"{(bytes / 1_099_511_627_776.0):F2} TB";
+        if (bytes >= 1_073_741_824)
+            return $"{(bytes / 1_073_741_824.0):F2} GB";
+        if (bytes >= 1_048_576)
+            return $"{(bytes / 1_048_576.0):F2} MB";
+        if (bytes >= 1024)
+            return $"{(bytes / 1024.0):F2} KB";
+        return $"{bytes} B";
+    }
+}
+
+<div class="watermark-overlay">
+    <span>BẢN QUYỀN thuộc về Nhóm 5</span>
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <script>
+        const userName = '@User.Identity.Name';
+
+        setInterval(() => {
+            const span = document.createElement('span');
+            span.textContent = `${userName} - BẢN QUYỀN`;
+            span.style.position = 'fixed';
+            span.style.left = `${Math.random() * window.innerWidth}px`;
+            span.style.top = `${Math.random() * window.innerHeight}px`;
+            span.style.opacity = '0.12';
+            span.style.fontSize = `${12 + Math.random() * 10}px`;
+            span.style.color = 'red';
+            span.style.transform = `rotate(${Math.random() * 360}deg)`;
+            span.style.pointerEvents = 'none';
+            span.style.fontWeight = 'bold';
+            span.style.userSelect = 'none';
+            span.style.zIndex = '9999';
+
+            document.body.appendChild(span);
+
+
+            setTimeout(() => span.remove(), 5000 + Math.random() * 3000);
+        }, 1500);
+    </script>
+}
+
+
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('visibilitychange', function () {
+            if (document.visibilityState === 'hidden') {
+                const watermarkOverlay = document.querySelector(".watermark-overlay");
+                watermarkOverlay.style.display = 'flex';
+
+                setTimeout(() => {
+                    watermarkOverlay.style.display = 'none';
+                }, 5000);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 || 
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) || 
+                (event.ctrlKey && event.keyCode === 85) || 
+                (event.ctrlKey && event.key === 's') || 
+                (event.ctrlKey && event.key === 'p') 
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+    </script>
+}
+
+<style>
+    .watermark-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        z-index: 9999;
+        font-size: 60px;
+        font-weight: bold;
+        color: rgba(255, 0, 0, 0.5); 
+        text-transform: uppercase;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .watermark-overlay span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        animation: moveWatermark 5s linear infinite;
+    }
+
+</style>

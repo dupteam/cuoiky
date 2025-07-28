@@ -1,0 +1,48 @@
+﻿@page "{id:guid}"
+@model WebLuuFile.Pages.DeleteModel
+@{
+    ViewData["Title"] = "Xoá File";
+}
+<h2>@ViewData["Title"]</h2>
+
+@if (Model.File != null)
+{
+    <p>Bạn có chắc chắn muốn xoá file: <strong>@Model.File.FileName</strong>?</p>
+    <form method="post">
+        <input type="hidden" asp-for="File.Id" />
+        <button type="submit" class="btn btn-danger">Xoá</button>
+        <a asp-page="/Index" class="btn btn-secondary">Hủy</a>
+    </form>
+}
+else
+{
+    <p>Không tìm thấy file.</p>
+}
+
+
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (
+                event.keyCode === 123 ||
+                (event.ctrlKey && event.shiftKey && (event.keyCode === 73 || event.keyCode === 74)) ||
+                (event.ctrlKey && event.keyCode === 85) ||
+                (event.ctrlKey && event.key === 's') ||
+                (event.ctrlKey && event.key === 'p')
+            ) {
+                event.preventDefault();
+                alert("Chức năng này đã bị vô hiệu hóa!");
+            }
+        });
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('dragstart', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => {
+            e.preventDefault();
+            alert("Sao chép nội dung bị vô hiệu hóa!");
+        });
+    </script>
+}
