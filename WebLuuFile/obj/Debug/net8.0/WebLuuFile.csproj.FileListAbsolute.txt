@@ -308,3 +308,4 @@ C:\Users\ADMIN\Desktop\WebLuuFilev7\WebLuuFile\obj\Debug\net8.0\refint\WebLuuFil
 C:\Users\ADMIN\Desktop\WebLuuFilev7\WebLuuFile\obj\Debug\net8.0\WebLuuFile.pdb
 C:\Users\ADMIN\Desktop\WebLuuFilev7\WebLuuFile\obj\Debug\net8.0\WebLuuFile.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\WebLuuFilev7\WebLuuFile\obj\Debug\net8.0\ref\WebLuuFile.dll
+C:\Users\ADMIN\Desktop\WebLuuFilev7\WebLuuFile\obj\Debug\net8.0\WebLuuFile.sourcelink.json
