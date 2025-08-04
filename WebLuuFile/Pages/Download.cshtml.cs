@@ -14,11 +14,19 @@ namespace WebLuuFile.Pages
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
+        private ApplicationDbContext context;
+        private IWebHostEnvironment env;
 
         public DownloadModel(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _userManager = userManager;
+        }
+
+        public DownloadModel(ApplicationDbContext context, IWebHostEnvironment env)
+        {
+            this.context = context;
+            this.env = env;
         }
 
         [BindProperty]
@@ -111,6 +119,11 @@ namespace WebLuuFile.Pages
         {
             using var keyDerivation = new Rfc2898DeriveBytes(password, salt, 10000, HashAlgorithmName.SHA256);
             return keyDerivation.GetBytes(32);
+        }
+
+        public async Task OnGetAsync(int v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

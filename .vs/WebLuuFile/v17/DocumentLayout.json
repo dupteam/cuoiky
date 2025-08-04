@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A2AB9CE-5984-4104-95EA-2E28BDB0D025}|WebLuuFile.Tests\\WebLuuFile.Tests.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile.tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A2AB9CE-5984-4104-95EA-2E28BDB0D025}|WebLuuFile.Tests\\WebLuuFile.Tests.csproj|solutionrelative:webluufile.tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F0A4AF-C711-4C96-B602-23CF5597638B}|WebLuuFile.Tests\\WebLuuFile.Tests.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile.tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F0A4AF-C711-4C96-B602-23CF5597638B}|WebLuuFile.Tests\\WebLuuFile.Tests.csproj|solutionrelative:webluufile.tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -170,11 +170,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -184,7 +188,7 @@
               "RelativeDocumentMoniker": "WebLuuFile.Tests\\FileServiceTests.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\FileServiceTests.cs",
               "RelativeToolTip": "WebLuuFile.Tests\\FileServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T09:43:58.725Z",
               "EditorCaption": ""
@@ -199,8 +203,7 @@
               "RelativeToolTip": "WebLuuFile\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-04T09:41:21.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T09:41:21.495Z"
             },
             {
               "$type": "Document",
@@ -212,8 +215,7 @@
               "RelativeToolTip": "WebLuuFile\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:11:07.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:11:07.214Z"
             },
             {
               "$type": "Document",
@@ -225,8 +227,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Restore.cshtml",
               "ViewState": "AgIAACYAAAAAAAAAAAAAwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T14:32:03.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T14:32:03.759Z"
             },
             {
               "$type": "Document",
@@ -238,8 +239,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\passupdate.cshtml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAqwDoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T15:37:05.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T15:37:05.011Z"
             },
             {
               "$type": "Document",
@@ -251,8 +251,7 @@
               "RelativeToolTip": "WebLuuFile\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T11:10:51.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:10:51.471Z"
             },
             {
               "$type": "Document",
@@ -264,8 +263,7 @@
               "RelativeToolTip": "WebLuuFile\\Program.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAwDEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:59:34.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:59:34.507Z"
             },
             {
               "$type": "Document",
@@ -277,8 +275,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Index.cshtml",
               "ViewState": "AgIAACAAAAAAAAAAAAAAwDIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:28:10.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:28:10.68Z"
             },
             {
               "$type": "Document",
@@ -290,8 +287,7 @@
               "RelativeToolTip": "WebLuuFile\\Models\\FileModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:12:53.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:12:53.108Z"
             },
             {
               "$type": "Document",
@@ -303,8 +299,7 @@
               "RelativeToolTip": "WebLuuFile\\Models\\FileVersion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:13:35.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:13:35.508Z"
             },
             {
               "$type": "Document",
@@ -316,8 +311,7 @@
               "RelativeToolTip": "WebLuuFile\\Models\\CustomUserStore.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:49:03.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T09:49:03.687Z"
             },
             {
               "$type": "Document",
@@ -329,8 +323,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\passupdate.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T15:36:25.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T15:36:25.051Z"
             },
             {
               "$type": "Document",
@@ -342,8 +335,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Download.cshtml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAUwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:22:48.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:22:48.821Z"
             },
             {
               "$type": "Document",
@@ -355,8 +347,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:31:25.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:31:25.239Z"
             },
             {
               "$type": "Document",
@@ -368,8 +359,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Account\\register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:51:36.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:51:36.69Z"
             },
             {
               "$type": "Document",
@@ -381,8 +371,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:22:17.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T08:22:17.716Z"
             },
             {
               "$type": "Document",
@@ -394,8 +383,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Upload.cshtml.cs",
               "ViewState": "AgIAAKYAAAAAAAAAAIBJwL0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:14:29.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:14:29.556Z"
             },
             {
               "$type": "Document",
@@ -407,8 +395,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Account\\register.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:51:50.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:51:50.427Z"
             },
             {
               "$type": "Document",
@@ -420,8 +407,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Account\\login.cshtml.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAwDoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:51:42.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:51:42.397Z"
             },
             {
               "$type": "Document",
@@ -433,8 +419,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Upload.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAIBZwAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:14:28.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:14:28.149Z"
             },
             {
               "$type": "Document",
@@ -446,8 +431,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Update.cshtml",
               "ViewState": "AgIAACsAAAAAAAAAAAAAwEIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:52:38.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:52:38.769Z"
             },
             {
               "$type": "Document",
@@ -459,8 +443,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\List.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:14:55.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:14:55.892Z"
             },
             {
               "$type": "Document",
@@ -472,8 +455,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Privacy.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAwCgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:34:59.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:34:59.832Z"
             },
             {
               "$type": "Document",
@@ -485,8 +467,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Error.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwDEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T14:28:53.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T14:28:53.249Z"
             },
             {
               "$type": "Document",
@@ -498,8 +479,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Download.cshtml",
               "ViewState": "AgIAACIAAAAAAAAAAAAAwDkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:22:47.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:22:47.618Z"
             },
             {
               "$type": "Document",
@@ -511,8 +491,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Delete.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAAwC0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:57:20.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:57:20.892Z"
             },
             {
               "$type": "Document",
@@ -524,8 +503,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\DeleteTrash.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAAwC0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T08:21:44.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T08:21:44.584Z"
             },
             {
               "$type": "Document",
@@ -537,8 +515,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAEBVwBsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:21:31.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:21:31.269Z"
             },
             {
               "$type": "Document",
@@ -550,8 +527,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\_ViewImports.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAEBVwB4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:21:32.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:21:32.194Z"
             },
             {
               "$type": "Document",
@@ -563,8 +539,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAEBVwBoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:21:27.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:21:27.41Z"
             },
             {
               "$type": "Document",
@@ -576,8 +551,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAEBVwDAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:52:38.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:52:38.117Z"
             },
             {
               "$type": "Document",
@@ -589,8 +563,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAIkAAAAAAAAAAAAAwKAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:43:23.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:43:23.897Z"
             },
             {
               "$type": "Document",
@@ -602,8 +575,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Update.cshtml.cs",
               "ViewState": "AgIAAOcAAAAAAAAAAAAAwPgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:52:44.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:52:44.141Z"
             },
             {
               "$type": "Document",
@@ -615,8 +587,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Account\\login.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:51:14.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T12:51:14.071Z"
             },
             {
               "$type": "Document",
@@ -628,8 +599,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Restore.cshtml.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAAwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:32:08.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T14:32:08.881Z"
             },
             {
               "$type": "Document",
@@ -641,8 +611,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Delete.cshtml.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:57:33.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:57:33.815Z"
             },
             {
               "$type": "Document",
@@ -654,8 +623,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\List.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:15:02.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:15:02.22Z"
             },
             {
               "$type": "Document",
@@ -667,8 +635,7 @@
               "RelativeToolTip": "WebLuuFile\\Models\\DownloadLog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:13:54.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:13:54.992Z"
             },
             {
               "$type": "Document",
@@ -680,8 +647,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Account\\logout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:40:40.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:40:40.553Z"
             },
             {
               "$type": "Document",
@@ -693,8 +659,7 @@
               "RelativeToolTip": "WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:40:49.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:40:49.163Z"
             }
           ]
         }

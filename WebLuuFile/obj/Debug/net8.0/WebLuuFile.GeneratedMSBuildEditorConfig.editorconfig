@@ -9,93 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebLuuFile
 build_property.RootNamespace = WebLuuFile
-build_property.ProjectDir = C:\Users\Admin\Desktop\cuoiky\WebLuuFile\
+build_property.ProjectDir = C:\Users\Admin\Desktop\cuoiky-Duong\cuoiky-Duong\cuoiky\WebLuuFile\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\cuoiky\WebLuuFile
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\cuoiky-Duong\cuoiky-Duong\cuoiky\WebLuuFile
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Account/login.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Account/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Account/logout.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Account/logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxsb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Account/register.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Account/register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxyZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Delete.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/DeleteTrash.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/DeleteTrash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlVHJhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Download.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Download.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG93bmxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Error.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Index.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/List.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/passupdate.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/passupdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGFzc3VwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Privacy.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Restore.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Restore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdG9yZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Update.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Upload.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/cuoiky/WebLuuFile/Pages/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/cuoiky-Duong/cuoiky-Duong/cuoiky/WebLuuFile/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1e4txle9al

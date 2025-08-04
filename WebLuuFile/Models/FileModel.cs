@@ -18,7 +18,7 @@
         public ICollection<FileVersion> FileVersions { get; set; }
 
         public virtual ICollection<DownloadLog> DownloadLogs { get; set; }
-
+        public string StoredFileName { get; set; }
     }
 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj": {
+    "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj",
         "projectName": "WebLuuFile.Tests",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\WebLuuFile.Tests.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile\\WebLuuFile.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile\\WebLuuFile.csproj"
+              "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\WebLuuFile.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\WebLuuFile.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile\\WebLuuFile.csproj": {
+    "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\WebLuuFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile\\WebLuuFile.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\WebLuuFile.csproj",
         "projectName": "WebLuuFile",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile\\WebLuuFile.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\WebLuuFile.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\cuoiky\\WebLuuFile\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
