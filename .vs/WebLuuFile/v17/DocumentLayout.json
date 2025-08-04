@@ -1,157 +1,165 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A2AB9CE-5984-4104-95EA-2E28BDB0D025}|WebLuuFile.Tests\\WebLuuFile.Tests.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile.tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A2AB9CE-5984-4104-95EA-2E28BDB0D025}|WebLuuFile.Tests\\WebLuuFile.Tests.csproj|solutionrelative:webluufile.tests\\fileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\models\\fileversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\models\\fileversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\models\\fileversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\models\\customuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\models\\customuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\models\\customuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\restore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\restore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\restore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\passupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\passupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\passupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\passupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\passupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\passupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\deletetrash.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\deletetrash.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\deletetrash.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\download.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\download.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\download.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\upload.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\upload.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\upload.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\deletetrash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\deletetrash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\deletetrash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\update.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\update.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\update.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\restore.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\restore.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\restore.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\models\\downloadlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\models\\downloadlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\models\\downloadlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\webluufilev7\\webluufile\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|c:\\users\\admin\\desktop\\cuoiky-duong\\cuoiky-duong\\cuoiky\\webluufile\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}|WebLuuFile\\WebLuuFile.csproj|solutionrelative:webluufile\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -162,466 +170,531 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebLuuFile\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:11:07.214Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Restore.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Restore.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Restore.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Restore.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Restore.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAwDMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T14:32:03.759Z"
+              "DocumentIndex": 0,
+              "Title": "FileServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\FileServiceTests.cs",
+              "RelativeDocumentMoniker": "WebLuuFile.Tests\\FileServiceTests.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile.Tests\\FileServiceTests.cs",
+              "RelativeToolTip": "WebLuuFile.Tests\\FileServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T09:43:58.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebLuuFile\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\appsettings.Development.json",
+              "RelativeToolTip": "WebLuuFile\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T09:41:21.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "passupdate.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\passupdate.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\passupdate.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\passupdate.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\passupdate.cshtml.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAqwDoAAABBAAAA",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebLuuFile\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T15:37:05.011Z"
+              "WhenOpened": "2025-03-20T11:11:07.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Restore.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Restore.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Restore.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Restore.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Restore.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T14:32:03.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "passupdate.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\passupdate.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\passupdate.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\passupdate.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\passupdate.cshtml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:37:05.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\appsettings.json",
               "RelativeDocumentMoniker": "WebLuuFile\\appsettings.json",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\appsettings.json",
               "RelativeToolTip": "WebLuuFile\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-20T11:10:51.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Program.cs",
               "RelativeDocumentMoniker": "WebLuuFile\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Program.cs",
               "RelativeToolTip": "WebLuuFile\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAVAAAA",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T12:59:34.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Index.cshtml",
               "RelativeToolTip": "WebLuuFile\\Pages\\Index.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAwDIAAAArAAAA",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T13:28:10.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileModel.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\FileModel.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Models\\FileModel.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\FileModel.cs",
-              "RelativeToolTip": "WebLuuFile\\Models\\FileModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:12:53.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileVersion.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\FileVersion.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Models\\FileVersion.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\FileVersion.cs",
-              "RelativeToolTip": "WebLuuFile\\Models\\FileVersion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:13:35.508Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "FileModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\FileModel.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Models\\FileModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\FileModel.cs",
+              "RelativeToolTip": "WebLuuFile\\Models\\FileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:12:53.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileVersion.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\FileVersion.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Models\\FileVersion.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\FileVersion.cs",
+              "RelativeToolTip": "WebLuuFile\\Models\\FileVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:13:35.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CustomUserStore.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\CustomUserStore.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\CustomUserStore.cs",
               "RelativeDocumentMoniker": "WebLuuFile\\Models\\CustomUserStore.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\CustomUserStore.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\CustomUserStore.cs",
               "RelativeToolTip": "WebLuuFile\\Models\\CustomUserStore.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAqwA8AAAAhAAAA",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:49:03.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "passupdate.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\passupdate.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\passupdate.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\passupdate.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\passupdate.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T15:36:25.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Download.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Download.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Download.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Download.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Download.cshtml.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:22:48.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:31:25.239Z"
+              "WhenOpened": "2025-04-06T09:49:03.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "register.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\register.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\register.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\register.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Title": "passupdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\passupdate.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\passupdate.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\passupdate.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\passupdate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:51:36.69Z"
+              "WhenOpened": "2025-04-05T15:36:25.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteTrash.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAqwGoAAAAAAAAA",
+              "DocumentIndex": 15,
+              "Title": "Download.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Download.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Download.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Download.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Download.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:22:17.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Upload.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Upload.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Upload.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Upload.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Upload.cshtml.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAAL0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:14:29.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\register.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\register.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\register.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\register.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:51:50.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\login.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\login.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\login.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\login.cshtml.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAwDoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:51:42.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Upload.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Upload.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Upload.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Upload.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Upload.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAIBJwAkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:14:28.149Z"
+              "WhenOpened": "2025-03-20T12:22:48.821Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Update.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Update.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Update.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Update.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwEIAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:52:38.769Z"
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:31:25.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\List.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\List.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\List.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\List.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBoAAAALAAAA",
+              "DocumentIndex": 13,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\register.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\register.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:14:55.892Z"
+              "WhenOpened": "2025-03-20T12:51:36.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Privacy.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAwCgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:34:59.832Z"
+              "DocumentIndex": 14,
+              "Title": "DeleteTrash.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\DeleteTrash.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T08:22:17.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Upload.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Upload.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Upload.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Upload.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Upload.cshtml.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAIBJwL0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:14:29.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\register.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\register.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:51:50.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Error.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Error.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwDEAAAAPAAAA",
+              "Title": "login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\login.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\login.cshtml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwDoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:51:42.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Upload.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Upload.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Upload.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T14:28:53.249Z"
+              "WhenOpened": "2025-03-20T11:14:28.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Update.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Update.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwEIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:52:38.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\List.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\List.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\List.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:14:55.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Download.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Download.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Download.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Download.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Download.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwDkAAAALAAAA",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:22:47.618Z"
+              "WhenOpened": "2025-03-20T12:34:59.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Delete.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Delete.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwC0AAAALAAAA",
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Error.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Error.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:57:20.892Z"
+              "WhenOpened": "2025-03-20T14:28:53.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "DeleteTrash.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\DeleteTrash.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\DeleteTrash.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\DeleteTrash.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\DeleteTrash.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwC0AAAALAAAA",
+              "Title": "Download.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Download.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Download.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Download.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Download.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T08:21:44.584Z"
+              "WhenOpened": "2025-03-20T12:22:47.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBsAAAALAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Delete.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Delete.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwC0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:21:31.269Z"
+              "WhenOpened": "2025-03-20T13:57:20.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAIBJwB4AAAALAAAA",
+              "Title": "DeleteTrash.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\DeleteTrash.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\DeleteTrash.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\DeleteTrash.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\DeleteTrash.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwC0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:21:32.194Z"
+              "WhenOpened": "2025-03-21T08:21:44.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAIBJwBoAAAALAAAA",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAEBVwBsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:21:27.41Z"
+              "WhenOpened": "2025-03-20T13:21:31.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAIBJwDAAAAALAAAA",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAEBVwB4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:52:38.117Z"
+              "WhenOpened": "2025-03-20T13:21:32.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAAwKAAAAALAAAA",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAEBVwBoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:43:23.897Z"
+              "WhenOpened": "2025-03-20T13:21:27.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Update.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Update.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Update.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Update.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Update.cshtml.cs",
-              "ViewState": "AQIAAOcAAAAAAAAAAAAAwPgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:52:44.141Z"
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAEBVwDAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:52:38.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\login.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\login.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\login.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\login.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCYAAAAAAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAwKAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T12:51:14.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Restore.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Restore.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Restore.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Restore.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Restore.cshtml.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAwFQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:32:08.881Z"
+              "WhenOpened": "2025-03-20T12:43:23.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Delete.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Delete.cshtml.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwEIAAAAAAAAA",
+              "Title": "Update.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Update.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Update.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Update.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Update.cshtml.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAwPgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:57:33.815Z"
+              "WhenOpened": "2025-03-20T13:52:44.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "List.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\List.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\List.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\List.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\List.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:15:02.22Z"
+              "DocumentIndex": 33,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\login.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\login.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:51:14.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "DownloadLog.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\DownloadLog.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Models\\DownloadLog.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Models\\DownloadLog.cs",
-              "RelativeToolTip": "WebLuuFile\\Models\\DownloadLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Title": "Restore.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Restore.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Restore.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Restore.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Restore.cshtml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:13:54.992Z"
+              "WhenOpened": "2025-03-20T14:32:08.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Delete.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Delete.cshtml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:57:33.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\logout.cshtml",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\logout.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\logout.cshtml",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:40:40.553Z"
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\List.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\List.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:15:02.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
-              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\WebLuuFilev7\\WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
-              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwCAAAAAAAAAA",
+              "Title": "DownloadLog.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\DownloadLog.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Models\\DownloadLog.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Models\\DownloadLog.cs",
+              "RelativeToolTip": "WebLuuFile\\Models\\DownloadLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:40:49.163Z"
+              "WhenOpened": "2025-03-20T11:13:54.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\logout.cshtml",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\logout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\logout.cshtml",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:40:40.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
+              "RelativeDocumentMoniker": "WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cuoiky-Duong\\cuoiky-Duong\\cuoiky\\WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
+              "RelativeToolTip": "WebLuuFile\\Pages\\Account\\logout.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:40:49.163Z",
+              "EditorCaption": ""
             }
           ]
         }
