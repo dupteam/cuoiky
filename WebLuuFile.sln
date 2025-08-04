@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLuuFile", "WebLuuFile\WebLuuFile.csproj", "{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLuuFile.Tests", "WebLuuFile.Tests\WebLuuFile.Tests.csproj", "{34F0A4AF-C711-4C96-B602-23CF5597638B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F1EA8FB-D068-4163-AA53-E72B5D0FE16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F0A4AF-C711-4C96-B602-23CF5597638B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F0A4AF-C711-4C96-B602-23CF5597638B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F0A4AF-C711-4C96-B602-23CF5597638B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F0A4AF-C711-4C96-B602-23CF5597638B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
