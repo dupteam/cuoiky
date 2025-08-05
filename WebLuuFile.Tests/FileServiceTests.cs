@@ -179,7 +179,7 @@ namespace WebLuuFile.Tests
             Assert.IsType<PageResult>(result);
             Assert.False(model.ModelState.IsValid);
             // Trả về FALSE => Hệ thống này chưa kiểm tra được định dạng file 
-            // => Hệ thống chưa kiểm tra định dạng file nguy hiểm (ví dụ: .exe)
+            // => Hệ thống chưa kiểm tra định dạng file nguy hiểm như .exe
         }
 
         // ✅ Test case 6: Upload file rỗng => không cho phép
@@ -214,7 +214,7 @@ namespace WebLuuFile.Tests
 
         // ❌ Test case 7: Người chưa đăng nhập có upload được file ko
         [Fact]
-        public async Task OnPostAsync_UnauthenticatedUser_ShouldReturnErrorOrRedirect()
+        public async Task OnPostAsync_UnauthenticatedUser_ShouldReturnModelError()
         {
             var context = GetInMemoryDbContext();
             var userManager = GetFakeUserManager();
@@ -228,13 +228,16 @@ namespace WebLuuFile.Tests
 
             var result = await model.OnPostAsync();
 
-            Assert.IsType<PageResult>(result);
-            // Trả về FALSE => Hệ thống vẫn cho người dùng upload mà chưa login => Sai logic
+            Assert.IsType<PageResult>(result); 
+            Assert.False(model.ModelState.IsValid); 
+            Assert.True(model.ModelState.ContainsKey("User")); 
         }
+        // Trả về FALSE => Hệ thống vẫn cho người dùng upload mà chưa login => Sai logic
+    
 
 
-        // ✅ TEST 8,9: Lọc và Tìm kiếm File
-        public class SearchTests
+    // ✅ TEST 8,9: Lọc và Tìm kiếm File
+    public class SearchTests
         {
             public class FileService
             {
