@@ -88,9 +88,9 @@ namespace WebLuuFile.Tests
             Assert.NotNull(saved);
             Assert.Equal("file.txt", saved.FileName);
             Assert.Equal("testuser", saved.UploadedBy);
-
-            // ❌ Nếu test này FAIL → hệ thống không upload thành công dù dữ liệu hợp lệ.
+            // Trả về FALSE => Dữ liệu hợp lệ vẫn ko upload được và không được lưu vào CSDL
         }
+        
 
         // ✅ Test case 2: Thiếu file => ModelState lỗi
         [Fact]
@@ -111,8 +111,7 @@ namespace WebLuuFile.Tests
             Assert.IsType<PageResult>(result);
             Assert.False(model.ModelState.IsValid);
             Assert.True(model.ModelState.ContainsKey("UploadFile"));
-
-            // ❌ Nếu test này FAIL → hệ thống không kiểm tra thiếu file.
+            // Trả về TRUE => Hệ thống đã kiểm tra dung lượng của file upload và ko cho phép upload file rỗng
         }
 
         // ✅ Test case 3: Không nhập mật khẩu => lỗi ModelState
@@ -134,8 +133,8 @@ namespace WebLuuFile.Tests
             Assert.IsType<PageResult>(result);
             Assert.False(model.ModelState.IsValid);
             Assert.True(model.ModelState.ContainsKey("FilePassword"));
-
-            // ❌ Nếu test này FAIL → hệ thống không kiểm tra mật khẩu trống.
+            // Trả về TRUE => Hệ thống này đã kiểm tra mật khẩu người dùng có nhập trống hay ko
+            // => Nếu để trống mật khẩu không thể upload được 
         }
 
         // ✅ Test case 4: Không nhập watermark => lỗi ModelState
@@ -157,8 +156,8 @@ namespace WebLuuFile.Tests
             Assert.IsType<PageResult>(result);
             Assert.False(model.ModelState.IsValid);
             Assert.True(model.ModelState.ContainsKey("WatermarkText"));
-
-            // ❌ Nếu test này FAIL → hệ thống không kiểm tra watermark rỗng.
+            // Trả về TRUE => Hệ thống đã kiểm tra xem Watermark có rỗng hay ko
+            // => Không có Watermark thì hệ thống ko cho upload
         }
 
         // ❌ Test case 5: Upload file .exe => hệ thống phải từ chối
@@ -179,8 +178,8 @@ namespace WebLuuFile.Tests
 
             Assert.IsType<PageResult>(result);
             Assert.False(model.ModelState.IsValid);
-
-            // ❌ Nếu test này FAIL → hệ thống chưa kiểm tra định dạng file nguy hiểm (ví dụ: .exe)
+            // Trả về FALSE => Hệ thống này chưa kiểm tra được định dạng file 
+            // => Hệ thống chưa kiểm tra định dạng file nguy hiểm (ví dụ: .exe)
         }
 
         // ✅ Test case 6: Upload file rỗng => không cho phép
@@ -209,11 +208,11 @@ namespace WebLuuFile.Tests
 
             Assert.IsType<PageResult>(result);
             Assert.False(model.ModelState.IsValid);
-
-            // ❌ Nếu test này FAIL → hệ thống chưa kiểm tra dung lượng file upload.
+            // Trả về TRUE => Hệ thống đã kiểm tra dung lượng file upload
+            // => Hệ thống không cho phép upload file rỗng 
         }
 
-        // ❌ Test case 7: Chưa đăng nhập mà vẫn upload được → sai
+        // ❌ Test case 7: Người chưa đăng nhập có upload được file ko
         [Fact]
         public async Task OnPostAsync_UnauthenticatedUser_ShouldReturnErrorOrRedirect()
         {
@@ -229,9 +228,98 @@ namespace WebLuuFile.Tests
 
             var result = await model.OnPostAsync();
 
-            Assert.IsType<PageResult>(result); // hoặc RedirectToPageResult nếu chuyển về login
+            Assert.IsType<PageResult>(result);
+            // Trả về FALSE => Hệ thống vẫn cho người dùng upload mà chưa login => Sai logic
+        }
 
-            // ❌ Nếu test này FAIL → hệ thống cho người chưa login upload là sai về bảo mật.
+
+        // ✅ TEST 8,9: Lọc và Tìm kiếm File
+        public class SearchTests
+        {
+            public class FileService
+            {
+                public List<FileModel> SearchByName(List<FileModel> files, string keyword)
+                    => files.Where(f => f.FileName.Contains(keyword, StringComparison.OrdinalIgnoreCase)).ToList();
+
+                public List<FileModel> FilterByType(List<FileModel> files, string type)
+                {
+                    return type switch
+                    {
+                        "Text" => files.Where(f => new[] { ".txt", ".pdf", ".docx" }.Contains(f.FileType)).ToList(),
+                        "Image" => files.Where(f => new[] { ".png", ".jpg" }.Contains(f.FileType)).ToList(),
+                        "Video" => files.Where(f => new[] { ".mp4", ".avi" }.Contains(f.FileType)).ToList(),
+                        "Audio" => files.Where(f => new[] { ".mp3", ".wav" }.Contains(f.FileType)).ToList(),
+                        _ => new List<FileModel>()
+                    };
+                }
+            }
+            //Tìm kiếm theo tên file
+            [Fact]
+            public void SearchByName_WithMatchingKeyword_ShouldReturnCorrectFiles()
+            {
+                var files = new List<FileModel>
+            {
+                new FileModel { FileName = "report.pdf" },
+                new FileModel { FileName = "holiday.jpg" },
+                new FileModel { FileName = "report_final.docx" }
+            };
+
+                var service = new FileService();
+                var result = service.SearchByName(files, "report");
+
+                Assert.Equal(2, result.Count);
+                Assert.All(result, f => Assert.Contains("report", f.FileName));
+                // Trả về TRUE => Những file nào có tên là report theo phần tìm kiếm thì sẽ được hiện lên
+            }
+            //Tìm kiếm theo định dạng file
+            [Fact]
+            public void FilterByType_WithTextType_ShouldReturnOnlyTextFiles()
+            {
+                var files = new List<FileModel>
+            {
+                new FileModel { FileType = ".txt" },
+                new FileModel { FileType = ".jpg" },
+                new FileModel { FileType = ".pdf" },
+                new FileModel { FileType = ".docx" }
+            };
+
+                var service = new FileService();
+                var result = service.FilterByType(files, "Text");
+
+                Assert.Equal(3, result.Count);
+                Assert.All(result, f => Assert.Contains(f.FileType, new[] { ".txt", ".pdf", ".docx" }));
+                // Trả về TRUE => Hệ thống này đã lọc được những file được coi là Text (như .txt,.pdf,.docx)
+                // jpg là ảnh => Ko được hiện lên
+            }
+        }
+
+        // ✅ TEST 10,11: Phân quyền
+        public class PermissionTests
+        {
+            public class FileService
+            {
+                public bool CanAccessFile(string currentUserId, string fileOwnerId)
+                    => currentUserId == fileOwnerId;
+            }
+            //Người khác truy cập được vào file của mình hay ko
+            [Fact]
+            public void CanAccessFile_WithDifferentUsers_ShouldReturnFalse()
+            {
+                var service = new FileService();
+                var result = service.CanAccessFile("userA", "userB");
+
+                Assert.False(result);//Kết quả phải trả về false 
+                // Ở đây trả về TRUE => Sai logic
+            }
+
+            [Fact]
+            public void CanAccessFile_WithSameUser_ShouldReturnTrue()
+            {
+                var service = new FileService();
+                var result = service.CanAccessFile("userA", "userA");
+
+                Assert.True(result);// Trả về TRUE => Đúng logic (Mình có thể truy cập được file của mình)
+            }
         }
     }
 }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebLuuFile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62222ccce6edb4feeb6fbf9af26e836bb7cb2dd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a8abf6e031e42411787d85d881fac891114bc2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebLuuFile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebLuuFile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
