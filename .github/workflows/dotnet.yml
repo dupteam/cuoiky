@@ -11,7 +11,7 @@ on:
 # Biến môi trường dùng chung cho toàn bộ job
 env:
   PROJECT_PATH: WebLuuFile/WebLuuFile.csproj   # Đường dẫn tới file dự án .NET
-  IMAGE_NAME: yourdockerhubuser/webluufile    # Tên Docker image sẽ build
+  IMAGE_NAME: dfw345r/webluufile    # Tên Docker image sẽ build
 
 jobs:
   build:
