@@ -1,29 +1,56 @@
-name: .NET Build & Publish
+# .github/workflows/ci-only.yml
+name: CI for ASP.NET Core
 
+# Kích hoạt pipeline khi có push hoặc pull request lên nhánh main
 on:
   push:
-    branches: [main]
+    branches: [ "main" ]
   pull_request:
-    branches: [main]
+    branches: [ "main" ]
+
+# Biến môi trường dùng chung cho toàn bộ job
+env:
+  PROJECT_PATH: WebLuuFile/WebLuuFile.csproj   # Đường dẫn tới file dự án .NET
+  IMAGE_NAME: dfw345r/webluufile    # Tên Docker image sẽ build
 
 jobs:
-  build-and-publish:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest   # Chạy trên runner Ubuntu mới nhất
 
     steps:
-    - name: 🔄 Checkout code
-      uses: actions/checkout@v3
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+        # Lấy toàn bộ mã nguồn từ repository về máy ảo runner
 
-    - name: 🧰 Setup .NET SDK
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.x'
+      - name: 🧰 Setup .NET Core SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+        # Cài đặt .NET SDK phiên bản 8.0 để build/publish
 
-    - name: 📦 Restore dependencies
-      run: dotnet restore ./WebLuuFile/WebLuuFile.csproj
+      - name: 🛠️ Restore dependencies
+        run: dotnet restore ${{ env.PROJECT_PATH }}
+        # Tải tất cả gói NuGet cần thiết cho dự án
 
-    - name: 🔨 Build project
-      run: dotnet build ./WebLuuFile/WebLuuFile.csproj --configuration Release
+      - name: 🏗️ Build project
+        run: dotnet build ${{ env.PROJECT_PATH }} --configuration Release
+        # Biên dịch dự án ở cấu hình Release, kiểm tra lỗi compile
 
-    - name: 🚀 Publish project
-      run: dotnet publish ./WebLuuFile/WebLuuFile.csproj --configuration Release --output ./publish
+      - name: 📦 Publish project
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release -o publish
+        # Xuất bản (publish) thành thư mục ./publish, sẵn sàng cho deploy
+
+      - name: 🐳 Build Docker image
+        run: docker build -t ${{ env.IMAGE_NAME }}:latest .
+        # Dùng Dockerfile để đóng gói ứng dụng vào image, gắn tag “latest”
+
+      - name: 🔐 Login DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USER }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+        # Đăng nhập vào Docker Hub bằng thông tin bí mật lưu trong GitHub Secrets
+
+      - name: 🚀 Push Docker image
+        run: docker push ${{ env.IMAGE_NAME }}:latest
+        # Đẩy image vừa build lên Docker Hub để lưu trữ hoặc deploy sau này
